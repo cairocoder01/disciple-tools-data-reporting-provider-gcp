@@ -1,0 +1,23 @@
+{
+  "name": "Disciple Tools - Data Reporting Provider Sample",
+  "version": "0.1.0",
+  "download_url": "https://github.com/cairocoder01/disciple-tools-data-reporting-provider-sample/releases/download/0.1.0/disciple-tools-data-reporting-provider-sample.zip",
+  "sections": {
+    "description": "Disciple Tools - Data Reporting Provider Sample.",
+    "installation": "(Required) You must have Disciple.Tools Theme installed before using this plugin. Once Disciple.Tools is installed, you can use the normal Plugin system to install the plugin.",
+    "changelog": ""
+  },
+  "last_updated": "2020-09-08",
+  "upgrade_notice": "Here's why you should upgrade...",
+  "requires": "4.7",
+  "tested": "5.5",
+  "banners": {
+    "low": "https://raw.githubusercontent.com/DiscipleTools/disciple-tools-version-control/master/images/dt-placeholder-772x250.jpg",
+    "high": "https://raw.githubusercontent.com/DiscipleTools/disciple-tools-version-control/master/images/dt-placeholder-1544x500.jpg"
+  },
+  "author": "cairocoder01",
+  "author_homepage": "https://github.com/cairocoder01",
+  "homepage": "https://github.com/cairocoder01/disciple-tools-data-reporting-provider-sample-template",
+  "license_url": "https://github.com/cairocoder01/disciple-tools-data-reporting-provider-sample-template/blob/master/LICENSE",
+  "readme_url": ""
+}
