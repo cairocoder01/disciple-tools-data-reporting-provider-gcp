@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Install dependencies
-        run: composer install --dev --prefer-dist --no-progress --no-suggest
+        run: composer install --prefer-dist --no-progress
       - name: PHPCS check
         uses: chekalsky/phpcs-action@v1
         with:
@@ -35,13 +35,13 @@ jobs:
 
     - name: Install dependencies
       if: steps.composer-cache.outputs.cache-hit != 'true'
-      run: composer install --prefer-dist --no-progress --no-suggest
+      run: composer install --no-dev --prefer-dist --no-progress --optimize-autoloader
       
     # Below borrowed from https://github.com/actions/upload-release-asset
     - name: Build project
       run: |
         mkdir disciple-tools-data-reporting-provider-gcp |
-        cp -r disciple-tools-data-reporting-provider-gcp.php LICENSE exports includes languages vendor disciple-tools-data-reporting-provider-gcp/ |
+        cp -r disciple-tools-data-reporting-provider-gcp.php LICENSE includes languages vendor disciple-tools-data-reporting-provider-gcp/ |
         zip -r disciple-tools-data-reporting-provider-gcp.zip disciple-tools-data-reporting-provider-gcp
     - name: Create Release
       id: create_release
