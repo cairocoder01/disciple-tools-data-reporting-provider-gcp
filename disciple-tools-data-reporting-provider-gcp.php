@@ -3,7 +3,7 @@
  * Plugin Name: Disciple Tools - Data Reporting GCP Provider
  * Plugin URI: https://github.com/cairocoder01/disciple-tools-data-reporting-provider-gcp
  * Description: Disciple Tools - Data Reporting GCP Provider adds the Google Cloud Storage provider to the Disciple Tools Data Reporting plugin
- * Version:  1.0.0
+ * Version:  1.0.1
  * Author URI: https://github.com/cairocoder01
  * GitHub Plugin URI: https://github.com/cairocoder01/disciple-tools-data-reporting-provider-gcp
  * Requires at least: 4.7.0
@@ -161,7 +161,7 @@ class DT_Data_Reporting_Provider_GCP_Plugin {
 
         // Admin and settings variables
         $this->token             = 'dt_data_reporting_provider_gcp_plugin';
-        $this->version             = '1.0.0';
+        $this->version             = '1.0.1';
 
     }
 
